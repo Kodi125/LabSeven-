@@ -1,0 +1,72 @@
+﻿<Window x:Class="LabSeven.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabSeven"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" VerticalAlignment="Top" Width="774">
+            <TabItem Header="Q1">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="0,19,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+                    <DataGrid x:Name="dvgEx1" HorizontalAlignment="Left" Height="184" Margin="10,61,0,0" VerticalAlignment="Top" Width="466"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Q2">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="0,17,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+                    <DataGrid x:Name="dvdQ2" HorizontalAlignment="Left" Height="182" Margin="34,62,0,0" VerticalAlignment="Top" Width="405"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Q3">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="32,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+                    <DataGrid x:Name="dvgQ3" HorizontalAlignment="Left" Height="293" Margin="10,51,0,0" VerticalAlignment="Top" Width="720"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Q4">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="56,15,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
+                    <DataGrid x:Name="dvgQ4" HorizontalAlignment="Left" Height="303" Margin="10,52,0,0" VerticalAlignment="Top" Width="573"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Q5">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="7*"/>
+                        <RowDefinition Height="47*"/>
+                    </Grid.RowDefinitions>
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="81,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_4"/>
+                    <TextBlock x:Name="tblkQ5" HorizontalAlignment="Left" Margin="67,45,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" Width="285"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Q6">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="113,10,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_5"/>
+                    <DataGrid x:Name="dgQ6" HorizontalAlignment="Left" Height="263" Margin="34,63,0,0" VerticalAlignment="Top" Width="681"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Q7">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="140,10,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_6"/>
+                    <DataGrid x:Name="dgQ7" HorizontalAlignment="Left" Height="328" Margin="10,34,0,0" VerticalAlignment="Top" Width="736"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Q8">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="164,10,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_7"/>
+                    <DataGrid x:Name="dgQ8" HorizontalAlignment="Left" Height="291" Margin="21,58,0,0" VerticalAlignment="Top" Width="713"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Q9">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="190,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_8"/>
+                    <DataGrid x:Name="dgQ9" HorizontalAlignment="Left" Height="304" Margin="22,50,0,0" VerticalAlignment="Top" Width="712"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
